@@ -1,0 +1,108 @@
+body{
+    font-family: "Roboto";
+}
+
+nav{
+    background-color: rgb(32, 32, 32);
+    font-family: "Sans-Pro", sans-serif;
+    text-transform: uppercase;
+}
+nav .container {
+    
+}
+nav .brand-logo:hover {
+    color : rgba(255,255,255,.7);
+}
+nav ul a {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color : rgba(255,255,255,.7);
+}
+nav ul li.active {
+    background-color: rgba(0, 0, 0, 0);
+}
+nav .links::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background:rgba(255,255,255,.7);
+    transition: width .3s;
+    margin-top: -1.3rem;
+}
+nav .links:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+.img-profil {
+    background: #2b2b2b;
+}
+.img-profil img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* HEADER
+
+nav .input-field label i{
+    color: #000;
+}
+
+nav a {
+    color: #000;
+}
+nav #id-nav{
+    margin-left: 17rem;
+}
+nav ul a {
+    color: #000;
+    letter-spacing: 1.3px;
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+nav ul li.active {
+    background-color: rgba(0,0,0,0);
+    font-weight: bold;
+}
+.nav-header img {
+    width: 270px;
+    padding: 4px;
+}
+
+.dropdown-content li > a{
+    font-size: 13px;
+    color: rgba(0, 0, 0);
+    text-transform: uppercase;
+}
+.dropdown-content li:hover, .dropdown-content li.active {
+    background-color: #fff;
+}
+#nav-guild li a{
+    word-spacing: 0.2rem;
+}
+.sidenav li a {
+    text-transform: uppercase;
+}
+.sidenav .logo img {
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+#mobile_nav-guild li a{
+    word-spacing: 0.4rem;
+}
+.mobile-nav-logo img {
+    width: 250px;
+    padding: 5px 15px;
+    margin: 15px 25px 0px 25px;
+}  */
