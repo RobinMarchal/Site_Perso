@@ -17,7 +17,7 @@ class ctrl extends CI_Controller
 
     public function home()
     {
-        $data['title'] = 'Mon Site';
+        $data['title'] = 'Robin Marchal | Portfolio';
         $data['description'] = 'Jeux sur Star Wars The Old Republic !';
 
         $data['main_contents'] = 'front/view_home';
