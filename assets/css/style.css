@@ -1,14 +1,10 @@
 body{
     font-family: "Roboto";
 }
-
 nav{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(29, 29, 29);
     font-family: "Sans-Pro", sans-serif;
     text-transform: uppercase;
-}
-nav .container {
-    
 }
 nav .brand-logo:hover {
     color : rgba(255,255,255,.7);
@@ -23,11 +19,8 @@ nav ul a:hover {
 }
 nav li .active {
     background-color: rgba(0, 0, 0, 0);
-    color : rgba(255,255,255,.7);
+    color : rgba(255,255,255,.55);
 }
-/* nav ul li.active {
-    background-color: rgba(0, 0, 0, 0);
-} */
 nav .links::after{
     content:'';
     display: block;
@@ -86,15 +79,18 @@ nav .links:hover::after {
     width: 50%;
     height: auto;
 }
-.git{
-    padding-top:15px;
-}
-.wp {
-    padding-top: 15px;
-}
+    .git{
+        padding-top:15px;
+    }
+    .wp {
+        padding-top: 15px;
+    }
+    .mtz {
+        padding-top: 15px;
+    }
 #top {
-    padding-top:50px;
-    margin-top:-50px;
+    padding-top:60px;
+    margin-top:-60px;
 }
 #presentation {
     padding-top:50px;
@@ -132,7 +128,7 @@ nav .links:hover::after {
     margin-right: auto
 }
 .parallax-container {
-    height: 560px;
+    height: 460px;
 }
 .page-footer{
     background-color: rgb(32, 32, 32);

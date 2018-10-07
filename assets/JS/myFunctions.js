@@ -11,3 +11,9 @@ $(document).ready(function(){
         .animate({scrollTop: $(target).offset().top}, 1000 );
     });
 });
+$(function(){
+    $('#navbar a').click(function () {
+        $('#navbar a').removeClass('active');
+        $(this).addClass('active');
+     });
+ });

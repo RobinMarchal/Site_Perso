@@ -25,8 +25,8 @@
                         <a data-activates="slide-out" href="#" class="sidenav-trigger" data-target="mobile-links"><i class="material-icons">menu</i></a>
                     </div>
 
-                    <ul id="id-nav" class="right hide-on-med-and-down">
-                        <li><a href="#top" class="links">Home</a></li>
+                    <ul id="navbar" class="right hide-on-med-and-down">
+                        <li><a href="#top" class="links active">Home</a></li>
                         <li><a href="#presentation" class="links">Présentation</a></li>
                         <li><a href="#formation" class="links">Formations</a></li>
                         <li><a href="#skill" class="links">Compétences</a></li>
