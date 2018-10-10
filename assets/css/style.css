@@ -45,25 +45,66 @@ nav .links:hover::after {
     margin-left: 30px;
     padding-top: 10px;
 }
+
+/* Main contents */
+
+#top {
+    padding-top:60px;
+    margin-top:-60px;
+}
+#presentation {
+    padding-top:50px;
+    margin-top:-50px;
+}
+#formation {
+    padding-top:50px;
+    margin-top:-50px;
+}
+#skill {
+    padding-top:50px;
+    margin-top:-50px;
+}
+#waking{
+    padding-top:50px;
+    margin-top:-50px;
+}
+#experiences{
+    padding-top:50px;
+    margin-top:-50px;
+}
+.box {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+}
 .section p {
     font-size: 16px;
     color: rgba(0,0,0,.8);
     letter-spacing: 1px;
 }
 .section .school h3 {
+    padding: 20px 10px 10px 10px;
     color: rgb(255, 255, 255);
     font-size: 2rem;
-    padding-top: 20px;
     letter-spacing: 1px;
 
 }
 .section .school{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.733);
     border-radius: 3px; 
 }
 .section .school p{
+    padding: 5px 5px 15px 5px;  
     color: rgb(255, 255, 255);
-    padding-bottom:20px;   
     letter-spacing: 1px;
 
 }
@@ -88,48 +129,53 @@ nav .links:hover::after {
     .mtz {
         padding-top: 15px;
     }
-#top {
-    padding-top:60px;
-    margin-top:-60px;
-}
-#presentation {
-    padding-top:50px;
-    margin-top:-50px;
-}
+
 .presentation {
     height: 700px;
 }
-.parallax-container .profil {
-    background: #2b2b2b;
+    .parallax-container .profil {
+        background: #2b2b2b;
+    }
+    .parallax-container .profil img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .parallax-container .defaut img{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.card .card-image .card-title {
+    color: #000;
 }
-.parallax-container .profil img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+.card .card-action a {
+    letter-spacing: 0.5px;
 }
-#formation {
-    padding-top:50px;
-    margin-top:-50px;
+.veille h3{
+    margin-left: 5%;
+    padding-top: 20px;
 }
-#skill {
-    padding-top:50px;
-    margin-top:-50px;
+.veille p {
+    margin: 26px;
 }
-#waking{
-    padding-top:50px;
-    margin-top:-50px;
+.section .school .profession {
+    color: rgba(243, 190, 45, 0.63);
 }
-.parallax-container .forest img{
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+#contact form{
+    background: #fff;
+    margin-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
-.parallax-container {
-    height: 460px;
-}
+
+/* Footer */
 .page-footer{
     background-color: rgb(32, 32, 32);
 }
@@ -147,6 +193,36 @@ nav .links:hover::after {
 }
 .linkedin:hover{
     color: #0077B5;
+}
+.parallax-container {
+    height: 460px;
+}
+
+
+.connect {
+    background-color: #363636;
+}
+#login {
+    width: 320px;
+    padding: 15% 0 0;
+    margin: auto;
+}
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 10px;
+    background: rgb(236, 236, 236);
+}
+.login .btn {
+    background-color: #ffab40;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #ffab40;
+    -webkit-box-shadow: 0 1px 0 0 #ffab40;
+    box-shadow: 0 1px 0 0 #ffab40;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+    color: #ffab40;
 }
 
 
@@ -252,27 +328,27 @@ nav .links:hover::after {
 }
 @media only screen and (min-width: 993px){
     nav .container {
-        width: 83%;
+        width: 93%;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 374px){
     .parallax-container {
-        height: 140px;
+        height: 160px;
     }
 }
-@media only screen and (min-width: 375px) and (max-width: 425px){
+@media only screen and (min-width: 375px) and (max-width: 424px){
     .parallax-container {
         height: 180px;
     }
 }
-@media only screen and (min-width: 426px) and (max-width: 469px){
+@media only screen and (min-width: 425px) and (max-width: 469px){
     .parallax-container {
         height: 210px;
     }
 }
 @media only screen and (min-width: 470px) and (max-width: 619px){
     .parallax-container {
-        height: 270px;
+        height: 250px;
     }
 }
 @media only screen and (min-width: 620px) and (max-width: 767px){
@@ -283,5 +359,33 @@ nav .links:hover::after {
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .parallax-container {
         height: 420px;
+    }
+}
+@media only screen and (max-width: 355px){
+    #login {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 749px){
+    .box span {
+        width: 10px;
+        height: 10px;
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 1050px){
+    .box span {
+        width: 15px;
+        height: 15px;
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+}
+@media only screen and (min-width: 1049px) and (max-width:  1250px){
+    .box span {
+        width: 20px;
+        height: 20px;
     }
 }

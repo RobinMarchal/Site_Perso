@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-
+    
     $('a').on('click', function(evt){
         evt.preventDefault(); 
         var target = $(this).attr('href');
@@ -10,10 +10,9 @@ $(document).ready(function(){
         $('html, body').stop()
         .animate({scrollTop: $(target).offset().top}, 1000 );
     });
-});
-$(function(){
+
     $('#navbar a').click(function () {
         $('#navbar a').removeClass('active');
         $(this).addClass('active');
-     });
- });
+    });
+});

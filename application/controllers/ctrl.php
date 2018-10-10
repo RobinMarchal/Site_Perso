@@ -1,7 +1,5 @@
 <?php 
 
-session_start();
-
 class ctrl extends CI_Controller
 {
     public function __construct()
@@ -18,12 +16,11 @@ class ctrl extends CI_Controller
     public function home()
     {
         $data['title'] = 'Robin Marchal | Portfolio';
-        $data['description'] = 'Jeux sur Star Wars The Old Republic !';
+        $data['description'] = '';
 
         $data['main_contents'] = 'front/view_home';
 
         $this->load->view('template', $data);
     }
-    
 }
 ?>

@@ -31,7 +31,8 @@
                         <li><a href="#formation" class="links">Formations</a></li>
                         <li><a href="#skill" class="links">Compétences</a></li>
                         <li><a href="#waking" class="links">Veille</a></li>
-                        <li><a href="#" class="links">Expériences</a></li>
+                        <li><a href="#experiences" class="links">Expériences</a></li>
+                        <li><a href="#contact" class="links">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -47,6 +48,7 @@
             <li><a href="#formation" >Formations</a></li>
             <li><a href="#skill" >Compétences</a></li>
             <li><a href="#waking" >Veille</a></li>
-            <li><a href="#" >Expériences</a></li>
+            <li><a href="#experiences" >Expériences</a></li>
+            <li><a href="#contact" >Contact</a></li>
         </ul>
     </header> <!-- End header -->
