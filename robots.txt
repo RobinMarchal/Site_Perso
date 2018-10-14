@@ -1,0 +1,11 @@
+User-agent : *
+Disallow : /dbadmin
+Allow : /
+
+User-agent : Googlebot-Image
+Disallow : assets/img/bg-auror.jpg
+Disallow : assets/img/bg-veille.jpg
+Disallow : assets/img/bg-trekk.jpg
+Disallow : assets/img/bg-computer.jpg
+Disallow : assets/img/bg-forest.jpg
+Disallow : assets/img/user_experience.jpg

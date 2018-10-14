@@ -38,39 +38,19 @@ nav .links:hover::after {
     background-color: rgb(32, 32, 32);
 }
 #mobile-links .brand-logo{
+    margin-left: 30px;
+    padding-top: 10px;
     font-family: "Sans-Pro", sans-serif;
     text-transform: uppercase;
     color: rgba(255,255,255,.7);
     letter-spacing: 4px;
-    margin-left: 30px;
-    padding-top: 10px;
 }
 
 /* Main contents */
 
 #top {
-    padding-top:60px;
-    margin-top:-60px;
-}
-#presentation {
-    padding-top:50px;
-    margin-top:-50px;
-}
-#formation {
-    padding-top:50px;
-    margin-top:-50px;
-}
-#skill {
-    padding-top:50px;
-    margin-top:-50px;
-}
-#waking{
-    padding-top:50px;
-    margin-top:-50px;
-}
-#experiences{
-    padding-top:50px;
-    margin-top:-50px;
+    padding-top:65px;
+    margin-top:-65px;
 }
 .box {
     position: absolute;
@@ -91,31 +71,6 @@ nav .links:hover::after {
     color: rgba(0,0,0,.8);
     letter-spacing: 1px;
 }
-.section .school h3 {
-    padding: 20px 10px 10px 10px;
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    letter-spacing: 1px;
-
-}
-.section .school{
-    background-color: rgba(0, 0, 0, 0.733);
-    border-radius: 3px; 
-}
-.section .school p{
-    padding: 5px 5px 15px 5px;  
-    color: rgb(255, 255, 255);
-    letter-spacing: 1px;
-
-}
-.section .school .date{
-    color: rgba(243, 190, 45, 0.63);
-}
-.section .desc {
-    color: rgba(132, 100, 11, 0.78);
-    font-size: 18px;
-    margin-bottom: 25px;
-}
 .section img{
     width: 50%;
     height: auto;
@@ -128,6 +83,46 @@ nav .links:hover::after {
     }
     .mtz {
         padding-top: 15px;
+    }
+
+.plug{
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 3px; 
+}
+    .plug h3 {
+        padding: 20px 10px 10px 10px;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+    .plug h4 {
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+    }
+    .plug p{
+        padding: 5px 5px 15px 5px;  
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+    }
+        .date{
+            color: rgba(243, 190, 45, 0.63);
+        }
+        .desc {
+            color: rgba(132, 100, 11, 0.78);
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .profession {
+            color: rgba(243, 190, 45, 0.63);
+        }
+
+
+.article {
+    padding: 10px 20px;
+    margin: 0px;
+}
+    .article h3{
+        margin-top: 10px;
     }
 
 .presentation {
@@ -164,20 +159,20 @@ nav .links:hover::after {
 .veille p {
     margin: 26px;
 }
-.section .school .profession {
-    color: rgba(243, 190, 45, 0.63);
+
+.curriculum {
+    width: 18rem;
+    margin-top:10%;
 }
-#contact form{
-    background: #fff;
-    margin-top: 40px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-}
+    .curriculum .btn-large {
+        background-color: #ffab40 !important;
+        padding: 0 20px;
+        word-spacing: 0.2rem;
+    }
 
 /* Footer */
 .page-footer{
-    background-color: rgb(32, 32, 32);
+    background-color:rgb(32, 32, 32);
 }
 .page-footer .row{
     margin-bottom: 0px;
@@ -197,8 +192,17 @@ nav .links:hover::after {
 .parallax-container {
     height: 460px;
 }
-
-
+/* Erreur 403 */
+.error {
+    background-color: #2b2b2b;
+}
+.error .erreur403 {
+    margin-left: 1%;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+/* DashBoard */
 .connect {
     background-color: #363636;
 }
@@ -328,7 +332,7 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 }
 @media only screen and (min-width: 993px){
     nav .container {
-        width: 93%;
+        width: 83%;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 374px){
