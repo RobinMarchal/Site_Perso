@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.tap-target').tapTarget();
     $('.scrollspy').scrollSpy({
+        throttle: 1,
         scrollOffset: 100,
     });
     $('a.box').on('click', function(evt){

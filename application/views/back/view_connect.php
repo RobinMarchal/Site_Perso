@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
-        <link rel="icon" href="">  
+        <link rel="icon" href="<?php echo base_url(); ?>assets/img/favicon.ico">  
     </head>
     <body class="connect">
         <div class="container">

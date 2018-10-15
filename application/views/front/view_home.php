@@ -53,7 +53,7 @@
 
                 <div class="row ">
                     <div class="col m8 s10 offset-m2 offset-s1">
-                        <div class="plug center z-depth-3">
+                        <div class="plug center z-depth-4">
                             <h3><span class="date">2017 / 2019</span> - BTS Services informatiques aux organisations</h3>
                             <p>
                                 Développement Web, Développement mobile, Gestion de projets, Programmation objet, Droit
@@ -64,7 +64,7 @@
 
                 <div class="row ">
                     <div class="col m8 s10 offset-m2 offset-s1">
-                        <div class="plug center z-depth-3">
+                        <div class="plug center z-depth-4">
                             <h3><span class="date">2016 / 2017</span> - DUT Génie Thermique Énergie</h3>
                             <p>
                                 Thermodimique, Mécanique des fluides, Métrologie, Communication
@@ -75,7 +75,7 @@
 
                 <div class="row ">
                     <div class="col m8 s10 offset-m2 offset-s1">
-                        <div class="plug center z-depth-3">
+                        <div class="plug center z-depth-4">
                             <h3><span class="date">2016</span> - Baccalauréat STI2D</h3>
                             <p>
                                 Spécialité Énergie Environnement
@@ -215,7 +215,7 @@
                 
                 <div class="row ">
                     <div class="col m10 s12 offset-m2">
-                        <div class="plug center z-depth-3">
+                        <div class="plug center z-depth-4">
                             <h3><span class="profession">Projet Personnel&nbsp;</span><span class="employer">&nbsp;</span></h3>
                             <h4>Portfolio</h4>
                             <p>
@@ -227,7 +227,7 @@
        
                 <div class="row ">
                     <div class="col m10 s12 offset-m2">
-                        <div class="plug center z-depth-3">
+                        <div class="plug center z-depth-4">
                             <h3><span class="profession">Stage&nbsp;</span><span class="employer">Agence Digital R2&nbsp;</span></h3>
                             <h4>Assistant Chef de Projet web</h4>
                             <p>

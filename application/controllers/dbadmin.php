@@ -1,11 +1,6 @@
 <?php 
-class dbadmin extends CI_Controller
+class Dbadmin extends CI_Controller
 {   
-    public function __construct()
-    {
-        parent::__construct();
-
-    }
     public function index()
     {
         $data['title'] = 'Dashboard';
