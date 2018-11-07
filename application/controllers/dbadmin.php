@@ -11,5 +11,10 @@ class Dbadmin extends CI_Controller
     {
 
     }
+    function dashboard() {
+        $data['main_contents'] = 'back/view_dash';
+
+        $this->load->view('dbTemplate', $data);
+    }
 }
 ?>

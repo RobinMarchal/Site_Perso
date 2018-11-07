@@ -18,20 +18,26 @@
 
                     <form class="z-depth-4" action="" method="post">
                         <div class="row">
-                            
-                            <div class="input-field col s12">
-                                <input id="username" type="text" class="validate">
-                                <label for="username">Nom Utilisateur</label>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="username" type="text" class="validate">
+                                    <label for="username">Nom Utilisateur</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                <input id="password" type="password" class="validate">
-                                <label for="password">Mot de passe</label>
+                                    <input id="password" type="password" class="validate">
+                                    <label for="password">Mot de passe</label>
                                 </div>
                             </div>
                             <div class="row">
-                                <button class="btn waves-effect waves-light" type="submit" name="action">Se connecter
+                                <div class="col s7">
+                                    <button class="btn waves-effect waves-light" type="submit" name="action">Se connecter
+                                </div>
+
+                                <div class="col s3 ">
+                                    <a class="waves-effect waves-light btn" href="<?php echo base_url();?>" title="Retour">Retour</a>
+                                </div>
                             </div>
                             
                         </div>
@@ -41,8 +47,8 @@
         </div>
 
         <!-- script -->
-        <script src="<?php echo base_url(); ?>assets/JQuery/jquery-3.3.1.min.js"></script>
-        <script src="<?php echo base_url(); ?>assets/JS/materialize.min.js"></script>
-        <script src="<?php echo base_url(); ?>assets/JS/myFunctions.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/js/myFunctions.js"></script>
     </body>
 </html>
